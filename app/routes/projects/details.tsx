@@ -41,7 +41,7 @@ export function HydrateFallback() {
 }
 
 const ProjectDetailsPage = ({ loaderData }: Route.ComponentProps) => {
-  const project = loaderData;
+  const { project } = loaderData;
   console.log(project);
   return (
     <>
