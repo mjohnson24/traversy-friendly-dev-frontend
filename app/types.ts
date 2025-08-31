@@ -29,6 +29,10 @@ export type StrapiProject = {
   documentId: string;
   title: string;
   description: string;
+  url: string;
+  date: string;
+  category: string;
+  featured: boolean;
   image?: {
     url: string;
     formats?: {
@@ -38,10 +42,6 @@ export type StrapiProject = {
       large?: { url: string };
     };
   };
-  url: string;
-  date: string;
-  category: string;
-  featured: boolean;
 };
 
 export type StrapiPost = {
