@@ -61,4 +61,7 @@ export type StrapiPost = {
       large?: { url: string };
     };
   };
+  url: string;
+  category: string;
+  featured: boolean;
 };
